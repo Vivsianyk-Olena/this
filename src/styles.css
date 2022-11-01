@@ -27,3 +27,8 @@ form {
 .search-form {
   margin-bottom: 0 auto;
 }
+
+p1 {
+  text-align: center;
+   color: gray;
+}
