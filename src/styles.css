@@ -1,0 +1,29 @@
+h1 {
+  position: relative;
+  color: gray;
+  top: 15px;
+  left: 190px;
+}
+
+.app {
+  border: 1px solid gray;
+  border-radius: 30px;
+  max-width: 1030px;
+  margin: 15px;
+}
+
+h2,
+p {
+  font-size: BOLD;
+  color: gray;
+  position: relative;
+  text-align: center;
+}
+
+form {
+  position: relative;
+  left: 150px;
+}
+.search-form {
+  margin-bottom: 0 auto;
+}
