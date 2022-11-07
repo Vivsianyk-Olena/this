@@ -1,3 +1,14 @@
+.container {
+  border: 1px solid black;
+  max-width: 1080px;
+  margin: 10px 20px;
+  
+}
+
+.col {
+max-width: 192px;
+}
+
 h1 {
   position: relative;
   color: gray;
@@ -22,18 +33,18 @@ p {
 
 form {
   position: relative;
-  left: 115px;
+  left: 15px;
   max-width: 1130px;
+  margin: 0px 0px 15px 0px;
 }
 .search-form {
-  margin-bottom: 50 auto;
-  max-width: 1025px;
+    max-width: 1025px;
 }
 
 h3 {
-  text-align: center;
+  left: 490px;
   position: relative;
-  
+
   font-size: 16px;
     color: black;
 }
