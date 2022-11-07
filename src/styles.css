@@ -25,10 +25,13 @@ form {
   left: 150px;
 }
 .search-form {
-  margin-bottom: 0 auto;
+  margin-bottom: 50 auto;
 }
 
-p1 {
+h3 {
   text-align: center;
-   color: gray;
+  position: relative;
+  left: 20px;
+  font-size: 18px;
+    color: black;
 }
