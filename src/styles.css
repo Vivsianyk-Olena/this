@@ -5,12 +5,19 @@
   
 }
 
+li {
+  text-align: left;
+}
+
 .col {
-max-width: 192px;
+max-width: 182px;
+padding: 0px;
+text-align: center;
 }
 
 h1 {
   position: relative;
+  
   color: gray;
   top: 15px;
   left: 190px;
@@ -23,9 +30,8 @@ h1 {
   margin: 15px;
 }
 
-h2,
-p {
-  font-size: BOLD;
+h2 {
+  font-size: 20px;
   color: gray;
   position: relative;
   text-align: center;
