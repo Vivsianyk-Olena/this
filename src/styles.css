@@ -13,11 +13,12 @@ li {
 max-width: 182px;
 padding: 0px;
 text-align: center;
+margin: 0 auto;
 }
 
 h1 {
   position: relative;
-  
+  margin: 0 auto;
   color: gray;
   top: 15px;
   left: 190px;
@@ -35,6 +36,7 @@ h2 {
   color: gray;
   position: relative;
   text-align: center;
+  margin: 0 auto;
 }
 
 form {
@@ -50,7 +52,7 @@ form {
 h3 {
   left: 490px;
   position: relative;
-
+  margin: 0 auto;
   font-size: 16px;
     color: black;
 }
