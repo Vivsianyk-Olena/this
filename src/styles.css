@@ -24,6 +24,10 @@ h1 {
   left: 190px;
 }
 
+p2 {
+  text-transform: capitalize;
+}
+
 .app {
   border: 1px solid gray;
   border-radius: 30px;
