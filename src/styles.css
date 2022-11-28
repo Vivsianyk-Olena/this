@@ -42,6 +42,15 @@ h2 {
   text-align: center;
   margin: 0 auto;
 }
+.active {
+  cursor: default;
+  color: gray;
+  text-decoration: none;
+}
+
+.active:hover {
+  text-decoration: none;
+}
 
 form {
   position: relative;
