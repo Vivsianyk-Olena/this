@@ -33,8 +33,22 @@ p2 {
   border-radius: 30px;
   max-width: 1030px;
   margin: 15px;
-}
+  }
 
+  .weather-forecast {
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    opacity: 0.9;
+  }
+.weather-forecast-temperature {
+  font-size: 15px;
+  text-align: center;
+  }
+
+  .weather-forecast-temperature-min {
+    font-weight: 450;
+  }
 h2 {
   font-size: 20px;
   color: gray;
