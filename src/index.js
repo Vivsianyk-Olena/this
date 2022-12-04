@@ -44,6 +44,7 @@ function displayForecast(response) {
   `
     <div class="col">
           <div class="weather-forecast-date">${formatDate(forecastDay.time * 1000)}</div>
+          <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/rain-day.png"
           <div class="weather-forecast-temperature">
           <span class="weather-forecast-temperature-max">
           ${Math.round(
