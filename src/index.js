@@ -37,14 +37,14 @@ function displayForecast(response) {
   let forecastElement = document.querySelector("#forecast");
  
   let forecastHTML = `<div class="row">`;
-  forecast.forEach(function (forecastDay) {
-    console.log({forecastDay})
+  forecast.forEach(function (forecastDay, index) {
+    if (index < 6) {
   forecastHTML =
   forecastHTML +
   `
     <div class="col">
           <div class="weather-forecast-date">${formatDate(forecastDay.time * 1000)}</div>
-          <img src="${forecastDay.condition.icon_url}">
+          <img src="${forecastDay.condition.icon_url}" width="80">
           <div class="weather-forecast-temperature">
           <span class="weather-forecast-temperature-max">
           ${Math.round(
@@ -58,6 +58,7 @@ function displayForecast(response) {
           
         </div>
       `;
+          }
   });
       forecastHTML = forecastHTML + `</div>`;
       forecastElement.innerHTML = forecastHTML;
